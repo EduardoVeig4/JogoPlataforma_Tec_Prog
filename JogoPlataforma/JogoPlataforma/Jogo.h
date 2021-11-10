@@ -1,20 +1,23 @@
 #pragma once
-#include <SFML/Graphics.hpp>
-#include "Jogador.h"
+#include<SFML/Graphics.hpp>
+#include "Entidade.h"
+#include"Jogador.h"
 #include "Inimigo.h"
-
-class Jogo {
+#include "Menu.h"
+#include "Ente.h"
+#include "Fase.h"
+class Jogo{
 private:
-	sf::RenderWindow window;
-	Jogador jogador1;
-	Inimigo inimigo1;
-
+	sf::RenderWindow janela;
+	Jogador jogador;
+	Inimigo inimigo;
+	Menu menu;
+	Fase fase;
 public:
-	
-	Jogo(); // Construtora
-	~Jogo(); // Destrutora
-
-	void Executar();
-	
+	Jogo();
+	~Jogo();
+	void executar();
+	void gravidade();
+	void inicializar();
 };
 
