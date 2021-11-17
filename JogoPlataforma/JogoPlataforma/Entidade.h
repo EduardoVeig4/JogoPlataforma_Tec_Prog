@@ -5,8 +5,8 @@ class Entidade: public Ente{
 protected:
 	sf::RectangleShape corpo;
 	//sf::RenderWindow* janela;
-	int x;
-	int y;
+	float x;
+	float y;
 public:
 	Entidade();
 	Entidade(float xx, float yy);
@@ -15,8 +15,10 @@ public:
 	void setJanela(sf::RenderWindow* window);
 	void setSize(float x, float y);
 	void setCor(int x, int y, int z, int zz);
-	int getPositionx();
-	int getPositiony();
-	void setTextura(const char*textura);
-
+	void setx();
+	void sety();
+	void setxy(float x,float y);
+	float getx();
+	float gety();
+	virtual void ajustar();
 };

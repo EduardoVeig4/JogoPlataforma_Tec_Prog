@@ -16,10 +16,9 @@ void Ente::setId(int i) {
 	id = i;
 }
 void Ente::executar() {
-	imprimir();
+
 }
 void Ente::imprimir() {
-
 }
 void Ente::setJanela(sf::RenderWindow* window) {
 	this->janela = window;

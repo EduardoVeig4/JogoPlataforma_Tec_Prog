@@ -16,8 +16,11 @@ Entidade::Entidade(float xx, float yy):
 	janela = NULL;
 }
 Entidade::~Entidade() {
+	corpo.setTexture(NULL);
+	janela = NULL;
 }
 void Entidade::imprimir() {
+	ajustar();
 	janela->draw(corpo);
 }
 void Entidade::setJanela(sf::RenderWindow* window) {
@@ -29,18 +32,26 @@ void Entidade::setSize(float x,float y) {
 void Entidade::setCor(int x,int y,int z,int zz) {
 	this->corpo.setFillColor(sf::Color(x, y, z, zz));
 }
-int Entidade::getPositionx() {
+void Entidade::setx() {
+	x = corpo.getPosition().x;
+}
+void Entidade::sety() {
+	y = corpo.getPosition().y;
+}
+void Entidade::setxy(float x,float y) {
+	corpo.setPosition(x, y);
+	x = corpo.getPosition().x;
+	y = corpo.getPosition().y;
+}
+
+float Entidade::getx() {
 	return x;
 }
-int Entidade::getPositiony() {
+float Entidade::gety() {
 	return y;
 }
-void Entidade::setTextura(const char* textura){
-		sf::Texture texture;
-		if (!texture.loadFromFile(textura)) {
-			cout << textura << endl;
-		}
-		cout << textura << endl;
-		corpo.setTexture(&texture,true);
-
+void Entidade::ajustar() {
+	if (corpo.getPosition().y + corpo.getSize().y > janela->getSize().y) {
+		corpo.setPosition(sf::Vector2f(corpo.getPosition().x, janela->getSize().y - corpo.getSize().y));
+	}
 }
