@@ -3,12 +3,16 @@
 #include<iostream>
 using namespace std;
 
-Jogo::Jogo():
-	janela(sf::VideoMode::getDesktopMode(),"Sla",sf::Style::Fullscreen){
-		inicializar();
-		executar();
-		
+Jogo::Jogo() :
+janela(sf::VideoMode::getDesktopMode(), "Sla", sf::Style::Fullscreen) {
+	inicializar();
+	executar();
+
+	jogador1 = new Jogador();
+	fase1 = new Fase(jogador1);
+	LEs = fase1->getListaEntidades();
 }
+	
 Jogo::~Jogo() {
 }
 
@@ -40,8 +44,8 @@ void Jogo::executar() {
 		else {
 			janela.clear(sf::Color::Green);
 			janela.draw(fundo);
-			jogador.executar();
-			inimigo.imprimir();
+			jogador1->executar();
+			//inimigo.imprimir();
 			if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)) {
 				fundo.move(-0.1f, 0.f);
 			}
@@ -54,18 +58,18 @@ void Jogo::executar() {
 	}
 }
 void Jogo::gravidade() {
-	jogador.setDy((float)GRAVIDADE);
+	jogador1->setDy((float)GRAVIDADE);
 	
 }
 void Jogo::inicializar() {
-	jogador.setJanela(&janela);
+	jogador1->setJanela(&janela);
 	//jogador.setCor(rand()%255, rand()%255, rand()%255, 255);
 	//inimigo.setCor();
-	inimigo.setJanela(&janela);
+	//inimigo.setJanela(&janela);
 	menu.setJanela(&janela);
-	fase.setJanela(&janela);
+	fase1->setJanela(&janela);
 	menu.setSize(janela.getSize().x, janela.getSize().y);
 	menu.setCor(100, 100, 255, 200);
-	jogador.setCor(255, 0, 0, 255);
+	jogador1->setCor(255, 0, 0, 255);
 	//jogador.setTexture("aaa.png");
 }

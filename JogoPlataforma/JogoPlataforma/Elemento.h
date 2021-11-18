@@ -9,7 +9,7 @@ public:
 	~Elemento();
 
 	void setPProx(Elemento<TE>* pProx) { this->pProx = pProx; }
-	void item(TE* item) { this->item = item; }
+	void setItem(TE* item) { this->item = item; }
 
 	Elemento<TE>* getPProx() { return pProx; }
 	TE* getItem() { return item; }
