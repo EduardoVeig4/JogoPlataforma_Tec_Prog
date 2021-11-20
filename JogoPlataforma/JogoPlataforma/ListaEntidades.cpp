@@ -62,12 +62,14 @@ namespace personagens {
 
 	}
 
-	Entidade* ListaEntidades::Elemento::voltarInicio() {
-
+	Entidade* ListaEntidades::voltarInicio()
+	{
+		return nullptr;
 	}
 
-	Entidade* ListaEntidades::Element::irProximo() {
-
+	Entidade* ListaEntidades::irProximo()
+	{
+		return nullptr;
 	}
 
 	/*
