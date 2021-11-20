@@ -8,6 +8,8 @@ Jogo::Jogo():
 		menu1 = 1;
 		fase1 = 1;
 
+		LEs = fase.getListaEntidades();
+
 		inicializar();
 		executar();
 		
@@ -50,28 +52,30 @@ void Jogo::executar() {
 	}
 }
 void Jogo::gravidade() {
-	jogador.setDy((float)GRAVIDADE);
-	inimigo.setDy((float)GRAVIDADE);
-	inim.setDy((float)GRAVIDADE);
-	inim2.setDy((float)GRAVIDADE);
-	arqueiro.setDy((float)GRAVIDADE);
+	jogador->setDy((float)GRAVIDADE);
+	inimigo->setDy((float)GRAVIDADE);
+	inim->setDy((float)GRAVIDADE);
+	inim2->setDy((float)GRAVIDADE);
+	arqueiro->setDy((float)GRAVIDADE);
 }
 void Jogo::inicializar() {
 	
 	//Janela das entidades
-	jogador.setJanela(&janela);
-	inimigo.setJanela(&janela);
-	inim.setJanela(&janela);
-	inim2.setJanela(&janela);
-	arqueiro.setJanela(&janela);
+	jogador->setJanela(&janela);
+	inimigo->setJanela(&janela);
+	inim->setJanela(&janela);
+	inim2->setJanela(&janela);
+	arqueiro->setJanela(&janela);
 	menu.setJanela(&janela);
 	fase.setJanela(&janela);
 
 	//Atribuir jogador aos inimigos
-	inimigo.setJogador(&jogador);
-	inim.setJogador(&jogador);
-	inim2.setJogador(&jogador);
-	arqueiro.setJogador(&jogador);
+	inimigo->setJogador(jogador);
+	inim->setJogador(jogador);
+	inim2->setJogador(jogador);
+	arqueiro->setJogador(jogador);
+
+	// Criar Listas
 
 }
 void Jogo::eventos() {
@@ -91,26 +95,36 @@ void Jogo::eventos() {
 		if (evento.type == sf::Event::KeyPressed) {
 			if (evento.key.code == sf::Keyboard::P) {
 				reiniciar();
-				jogador.morrer(1);
+				jogador->morrer(1);
 				
 			}
 		}
 	}
 	
 }
+
+void Jogo::inicializaElementos() {
+	LEs->LEs.push(jogador);
+	LEs->LEs.push(inimigo);
+	LEs->LEs.push(inim);
+	LEs->LEs.push(inim2);
+	LEs->LEs.push(arqueiro);
+}
+
+
 void Jogo::printar(){
 	fase.selecionar(fase1);
-	jogador.executar();
-	inimigo.executar();
-	arqueiro.executar();
-	inim.executar();
-	inim2.executar();
+	jogador->executar();
+	inimigo->executar();
+	arqueiro->executar();
+	inim->executar();
+	inim2->executar();
 }
 
 void Jogo::reiniciar() {
-	jogador.setxy(0, 0);
-	inim.reiniciar();
-	arqueiro.reiniciar();
-	inim2.reiniciar();
-	inimigo.reiniciar();
+	jogador->setxy(0, 0);
+	inim->reiniciar();
+	arqueiro->reiniciar();
+	inim2->reiniciar();
+	inimigo->reiniciar();
 }

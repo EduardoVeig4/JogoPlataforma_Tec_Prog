@@ -1,19 +1,127 @@
 ﻿  Arqueiro.cpp
-  Ente.cpp
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,7): error C2365: 'Elemento<TE>::item': redefinição; definição anterior era 'membro de dados'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(5): message : consulte a declaração de 'Elemento<TE>::item'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(17): message : consulte a referência à instanciação 'Elemento<TE>' do modelo da classe que está sendo compilada
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,24): error C2059: erro de sintaxe: 'this'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,1): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,11): error C2065: 'TE': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2923: 'Elemento': 'TE' não é um argumento de tipo de modelo válido para parâmetro 'TE'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14): message : consulte a declaração de 'TE'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2146: erro de sintaxe: ';' ausente antes do identificador 'Elemento'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,8): error C2065: 'Entidade': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,2): error C2923: 'Lista': 'Entidade' não é um argumento de tipo de modelo válido para parâmetro 'TL'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9): message : consulte a declaração de 'Entidade'
   Entidade.cpp
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,7): error C2365: 'Elemento<TE>::item': redefinição; definição anterior era 'membro de dados'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(5): message : consulte a declaração de 'Elemento<TE>::item'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(17): message : consulte a referência à instanciação 'Elemento<TE>' do modelo da classe que está sendo compilada
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,24): error C2059: erro de sintaxe: 'this'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,1): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,11): error C2065: 'TE': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2923: 'Elemento': 'TE' não é um argumento de tipo de modelo válido para parâmetro 'TE'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14): message : consulte a declaração de 'TE'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2146: erro de sintaxe: ';' ausente antes do identificador 'Elemento'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,8): error C2065: 'Entidade': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,2): error C2923: 'Lista': 'Entidade' não é um argumento de tipo de modelo válido para parâmetro 'TL'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9): message : consulte a declaração de 'Entidade'
   Fase.cpp
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,7): error C2365: 'Elemento<TE>::item': redefinição; definição anterior era 'membro de dados'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(5): message : consulte a declaração de 'Elemento<TE>::item'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(17): message : consulte a referência à instanciação 'Elemento<TE>' do modelo da classe que está sendo compilada
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,24): error C2059: erro de sintaxe: 'this'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,1): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,11): error C2065: 'TE': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2923: 'Elemento': 'TE' não é um argumento de tipo de modelo válido para parâmetro 'TE'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14): message : consulte a declaração de 'TE'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2146: erro de sintaxe: ';' ausente antes do identificador 'Elemento'
   Inimigo.cpp
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,7): error C2365: 'Elemento<TE>::item': redefinição; definição anterior era 'membro de dados'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(5): message : consulte a declaração de 'Elemento<TE>::item'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(17): message : consulte a referência à instanciação 'Elemento<TE>' do modelo da classe que está sendo compilada
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,24): error C2059: erro de sintaxe: 'this'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,1): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,11): error C2065: 'TE': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2923: 'Elemento': 'TE' não é um argumento de tipo de modelo válido para parâmetro 'TE'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14): message : consulte a declaração de 'TE'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2146: erro de sintaxe: ';' ausente antes do identificador 'Elemento'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,8): error C2065: 'Entidade': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,2): error C2923: 'Lista': 'Entidade' não é um argumento de tipo de modelo válido para parâmetro 'TL'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9): message : consulte a declaração de 'Entidade'
 C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Inimigo.cpp(11,50): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
 C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Inimigo.cpp(11,32): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
 C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Inimigo.cpp(25,41): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
 C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Inimigo.cpp(25,21): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
   Inimigo_comum.cpp
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,7): error C2365: 'Elemento<TE>::item': redefinição; definição anterior era 'membro de dados'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(5): message : consulte a declaração de 'Elemento<TE>::item'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(17): message : consulte a referência à instanciação 'Elemento<TE>' do modelo da classe que está sendo compilada
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,24): error C2059: erro de sintaxe: 'this'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,1): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,11): error C2065: 'TE': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2923: 'Elemento': 'TE' não é um argumento de tipo de modelo válido para parâmetro 'TE'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14): message : consulte a declaração de 'TE'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2146: erro de sintaxe: ';' ausente antes do identificador 'Elemento'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,8): error C2065: 'Entidade': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,2): error C2923: 'Lista': 'Entidade' não é um argumento de tipo de modelo válido para parâmetro 'TL'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9): message : consulte a declaração de 'Entidade'
   Jogador.cpp
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,7): error C2365: 'Elemento<TE>::item': redefinição; definição anterior era 'membro de dados'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(5): message : consulte a declaração de 'Elemento<TE>::item'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(17): message : consulte a referência à instanciação 'Elemento<TE>' do modelo da classe que está sendo compilada
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,24): error C2059: erro de sintaxe: 'this'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,1): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,11): error C2065: 'TE': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2923: 'Elemento': 'TE' não é um argumento de tipo de modelo válido para parâmetro 'TE'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14): message : consulte a declaração de 'TE'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2146: erro de sintaxe: ';' ausente antes do identificador 'Elemento'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,8): error C2065: 'Entidade': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,2): error C2923: 'Lista': 'Entidade' não é um argumento de tipo de modelo válido para parâmetro 'TL'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9): message : consulte a declaração de 'Entidade'
   Jogo.cpp
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,7): error C2365: 'Elemento<TE>::item': redefinição; definição anterior era 'membro de dados'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(5): message : consulte a declaração de 'Elemento<TE>::item'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(17): message : consulte a referência à instanciação 'Elemento<TE>' do modelo da classe que está sendo compilada
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,24): error C2059: erro de sintaxe: 'this'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,1): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,11): error C2065: 'TE': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2923: 'Elemento': 'TE' não é um argumento de tipo de modelo válido para parâmetro 'TE'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14): message : consulte a declaração de 'TE'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2146: erro de sintaxe: ';' ausente antes do identificador 'Elemento'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,8): error C2065: 'Entidade': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,2): error C2923: 'Lista': 'Entidade' não é um argumento de tipo de modelo válido para parâmetro 'TL'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9): message : consulte a declaração de 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(107,23): error C2662: 'void Lista<TL>::push(TL *)': não é possível converter ponteiro 'this' de 'Lista' para 'Lista<TL> &'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(107,23): message : Razão: não é possível converter de 'Lista' para 'Lista<TL>'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(107,5): message : Conversão requer um segundo operador de conversão definida pelo usuário ou construtor
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Lista.h(42,10): message : consulte a declaração de 'Lista<TL>::push'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(108,23): error C2662: 'void Lista<TL>::push(TL *)': não é possível converter ponteiro 'this' de 'Lista' para 'Lista<TL> &'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(108,23): message : Razão: não é possível converter de 'Lista' para 'Lista<TL>'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(108,5): message : Conversão requer um segundo operador de conversão definida pelo usuário ou construtor
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Lista.h(42,10): message : consulte a declaração de 'Lista<TL>::push'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(109,20): error C2662: 'void Lista<TL>::push(TL *)': não é possível converter ponteiro 'this' de 'Lista' para 'Lista<TL> &'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(109,20): message : Razão: não é possível converter de 'Lista' para 'Lista<TL>'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(109,5): message : Conversão requer um segundo operador de conversão definida pelo usuário ou construtor
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Lista.h(42,10): message : consulte a declaração de 'Lista<TL>::push'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(110,21): error C2662: 'void Lista<TL>::push(TL *)': não é possível converter ponteiro 'this' de 'Lista' para 'Lista<TL> &'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(110,21): message : Razão: não é possível converter de 'Lista' para 'Lista<TL>'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(110,5): message : Conversão requer um segundo operador de conversão definida pelo usuário ou construtor
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Lista.h(42,10): message : consulte a declaração de 'Lista<TL>::push'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(111,24): error C2662: 'void Lista<TL>::push(TL *)': não é possível converter ponteiro 'this' de 'Lista' para 'Lista<TL> &'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(111,24): message : Razão: não é possível converter de 'Lista' para 'Lista<TL>'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(111,5): message : Conversão requer um segundo operador de conversão definida pelo usuário ou construtor
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Lista.h(42,10): message : consulte a declaração de 'Lista<TL>::push'
   main.cpp
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,7): error C2365: 'Elemento<TE>::item': redefinição; definição anterior era 'membro de dados'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(5): message : consulte a declaração de 'Elemento<TE>::item'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(17): message : consulte a referência à instanciação 'Elemento<TE>' do modelo da classe que está sendo compilada
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,24): error C2059: erro de sintaxe: 'this'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,1): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,11): error C2065: 'TE': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2923: 'Elemento': 'TE' não é um argumento de tipo de modelo válido para parâmetro 'TE'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14): message : consulte a declaração de 'TE'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2146: erro de sintaxe: ';' ausente antes do identificador 'Elemento'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,8): error C2065: 'Entidade': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,2): error C2923: 'Lista': 'Entidade' não é um argumento de tipo de modelo válido para parâmetro 'TL'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9): message : consulte a declaração de 'Entidade'
 C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\main.cpp(9,15): warning C4244: 'argumento': conversão de 'time_t' para 'unsigned int', possível perda de dados
-  Menu.cpp
-  Textura1.cpp
   Gerando Código...
-  LINK : C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\Debug\JogoPlataforma.exe não encontrado ou não compilado pelo o último link incremental; executando link completo
-  JogoPlataforma.vcxproj -> C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\Debug\JogoPlataforma.exe

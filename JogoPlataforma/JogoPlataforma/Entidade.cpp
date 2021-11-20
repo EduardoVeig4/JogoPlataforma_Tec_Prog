@@ -4,13 +4,19 @@ using namespace std;
 
 Entidade::Entidade() :
 	corpo(sf::Vector2f(100.f,100.f)) {
+
+	posicao = sf::Vector2f(0.0f, 0.0f); // Define a posição inicial usando o vector de float
+
 	x = 0;
 	y = 0;
 	janela = NULL;
 }
-Entidade::Entidade(float xx, float yy):
-	corpo(sf::Vector2f(xx,yy)){
-	corpo.setSize(sf::Vector2f((float)xx, (float)yy));
+Entidade::Entidade(float sizex, float sizey):
+	corpo(sf::Vector2f(sizex, sizey)){
+	corpo.setSize(sf::Vector2f((float)sizex, (float)sizey));
+
+	posicao = sf::Vector2f(0.0f, 0.0f); // Define a posição inicial usando o vector de float
+
 	x = 0;
 	y = 0;
 	janela = NULL;
@@ -32,9 +38,16 @@ void Entidade::setSize(float x,float y) {
 void Entidade::setCor(int x,int y,int z,int zz) {
 	this->corpo.setFillColor(sf::Color(x, y, z, zz));
 }
+
+// Set da posição utilizando o vector de float
+void Entidade::setPos(float x, float y) {
+	posicao = sf::Vector2f(x, y);
+}
+
 void Entidade::setx() {
 	x = corpo.getPosition().x;
 }
+
 void Entidade::sety() {
 	y = corpo.getPosition().y;
 }
