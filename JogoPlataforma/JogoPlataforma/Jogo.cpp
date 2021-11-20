@@ -7,8 +7,17 @@ Jogo::Jogo():
 	janela(sf::VideoMode::getDesktopMode(),"Sla",sf::Style::Fullscreen){
 		menu1 = 1;
 		fase1 = 1;
+		/*
+		// Inserção dos jogadores
+		listaJogadores.inserir(new Jogador());
+		listaJogadores.inserir(new Jogador());
 
-		LEs = fase.getListaEntidades();
+		// Inserção dos inimigos
+		listaJogadores.inserir(new Inimigo_comum());
+		listaJogadores.inserir(new Inimigo_comum());
+		listaJogadores.inserir(new Inimigo_comum());
+		listaJogadores.inserir(new Arqueiro());
+		*/
 
 		inicializar();
 		executar();
@@ -74,9 +83,6 @@ void Jogo::inicializar() {
 	inim->setJogador(jogador);
 	inim2->setJogador(jogador);
 	arqueiro->setJogador(jogador);
-
-	// Criar Listas
-
 }
 void Jogo::eventos() {
 	sf::Event evento;
@@ -102,15 +108,6 @@ void Jogo::eventos() {
 	}
 	
 }
-
-void Jogo::inicializaElementos() {
-	LEs->LEs.push(jogador);
-	LEs->LEs.push(inimigo);
-	LEs->LEs.push(inim);
-	LEs->LEs.push(inim2);
-	LEs->LEs.push(arqueiro);
-}
-
 
 void Jogo::printar(){
 	fase.selecionar(fase1);

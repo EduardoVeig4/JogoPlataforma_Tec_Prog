@@ -1,8 +1,9 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include "Ente.h"
-#include "Lista.h"
 #include "ListaEntidades.h"
+//#include "GerenciadorGrafico.h"
+//#include "GerenciadorEventos.h"
 
 class Entidade: public Ente{
 protected:
@@ -13,7 +14,7 @@ protected:
 	float y;
 
 public:
-	Entidade();
+	Entidade(/*Vector2f pos, Vector2f vel, const char* caminhoTextura = nullptr*/);
 	Entidade(float sizex, float sizey);
 	~Entidade();
 	void imprimir();
@@ -29,6 +30,11 @@ public:
 	float getx();
 	float gety();
 	virtual void ajustar();
-
 	
+	/*
+	virtual void inicializar(GerenciadorGrafico &gf, GerenciadorEventos &ge);
+	virtual void atualizar(float t);
+	virtual void desenhar(GerenciadorGrafico &gf);
+	*/
+
 };

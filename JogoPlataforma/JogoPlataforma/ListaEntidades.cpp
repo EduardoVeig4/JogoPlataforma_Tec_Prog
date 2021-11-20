@@ -1,50 +1,8 @@
 #pragma once
-#pragma once
-//#include "Lista.h"
 #include "ListaEntidades.h"
-#include "Entidade.h"
-#include "Elemento.h"
-
-/*
-namespace sf {
-	class RenderWindow;
-}
-*/
+#include <iostream>
 
 namespace personagens {
-
-	ListaEntidades::Elemento::Elemento(Entidade* Item, Elemento* Prox, Elemento* Ante) {
-
-	}
-
-	ListaEntidades::Elemento::~Elemento() {
-
-	}
-
-	// Gets e Sets
-	Entidade* ListaEntidades::Elemento::getItem() {
-
-	}
-
-	void ListaEntidades::Elemento::setItem(Entidade* Item) {
-
-	}
-
-	Entidade* ListaEntidades::Elemento::getProx() {
-
-	}
-
-	void ListaEntidades::Elemento::setProx(Elemento* Prox) {
-
-	}
-
-	Entidade* ListaEntidades::Elemento::getItem() {
-
-	}
-
-	void ListaEntidades::Elemento::setItem(Elemento* Ante) {
-
-	}
 
 	ListaEntidades::ListaEntidades() {
 
@@ -54,27 +12,47 @@ namespace personagens {
 
 	}
 
-	void ListaEntidades::inserir(Entidade* info) {
-
+	ListaEntidades::~ListaEntidades() {
+		destruirEntidades();
 	}
 
-	void ListaEntidades::esvaziar() {
-
-	}
-
-	Entidade* ListaEntidades::voltarInicio()
-	{
-		return nullptr;
-	}
-
-	Entidade* ListaEntidades::irProximo()
-	{
-		return nullptr;
+	void ListaEntidades::inserir(Entidade* Item) {
+		lista.inserir(Item);
 	}
 
 	/*
-	void atualizarEntidades(float t);
-	void desenharEntidades(sf::RenderWindow* janela);
-	void destruirEntidades();
+	
+	void ListaEntidades::inicializarEntidade(GerenciadorGrafico &ge, GerenciadorEventos &gf) {
+		Entidade* ent = lista.voltarInicio();
+
+		while (ent) {
+			ent->inicializar(ge, gf);
+			ent = lista.irProximo();
+		}
+	}
+
+	void ListaEntidades::atualizarEntidades(float t) {
+		Entidade* ent = lista.voltarInicio();
+
+		while (ent) {
+			ent->atualizar(t);
+
+			ent = lista.irProximo();
+		}
+	}
 	*/
+
+	void ListaEntidades::destruirEntidades() {
+		Entidade* ent = lista.voltarInicio();
+
+		while (ent) {
+			delete ent;
+			ent = lista.irProximo();
+		}
+
+		lista.esvaziar();
+	}
+
+	//void ListaEntidades::desenharEntidades(sf::RenderWindow* janela) { }
+
 }

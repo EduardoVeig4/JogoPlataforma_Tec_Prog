@@ -5,8 +5,6 @@
 Fase::Fase() {
 	fundo.setTexture(&fase1);
 	fundo.setSize(sf::Vector2f(4000, 800));
-
-	listaEntidades = new ListaEntidades;
 }
 Fase::~Fase() {
 
@@ -32,6 +30,8 @@ void Fase::mover() {
 	}
 }
 
+/*
 ListaEntidades* Fase::getListaEntidades() {
 	return listaEntidades;
 }
+*/

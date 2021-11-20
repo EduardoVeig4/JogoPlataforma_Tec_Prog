@@ -162,7 +162,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arqueiro.h" />
-    <ClInclude Include="Elemento.h" />
     <ClInclude Include="Ente.h" />
     <ClInclude Include="Entidade.h" />
     <ClInclude Include="Fase.h" />
@@ -170,7 +169,9 @@
     <ClInclude Include="Inimigo_comum.h" />
     <ClInclude Include="Jogador.h" />
     <ClInclude Include="Jogo.h" />
+    <ClInclude Include="Lista.hpp" />
     <ClInclude Include="ListaEntidades.h" />
+    <ClInclude Include="ListaImplementacao.hpp" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Textura1.h" />
   </ItemGroup>

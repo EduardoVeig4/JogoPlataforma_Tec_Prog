@@ -39,8 +39,7 @@ void Entidade::setCor(int x,int y,int z,int zz) {
 	this->corpo.setFillColor(sf::Color(x, y, z, zz));
 }
 
-// Set da posição utilizando o vector de float
-void Entidade::setPos(float x, float y) {
+void Entidade::setPos(float x, float y) { // Set da posição utilizando o vector de float
 	posicao = sf::Vector2f(x, y);
 }
 
@@ -68,3 +67,17 @@ void Entidade::ajustar() {
 		corpo.setPosition(sf::Vector2f(corpo.getPosition().x, janela->getSize().y - corpo.getSize().y));
 	}
 }
+
+/*
+void Entidade::inicializar(GerenciadorGrafico &gf, GerenciadorEventos &ge) {
+	gf.carregarTextura(caminho);
+}
+
+void Entidade::atualizar(float t) {
+	posicao += v*t; // Posição incrementada com uma certa velocidade
+}
+
+void Entidade::desenhar(GerenciadorGrafico &gf) {
+	gf.desenhar(caminho, posicao);
+}
+*/

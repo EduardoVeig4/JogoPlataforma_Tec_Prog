@@ -8,22 +8,27 @@
 #include "Ente.h"
 #include "Fase.h"
 #include "Fase1.h"
-#include "Entidade.h"
 #include "ListaEntidades.h"
+
+class ListaEntidades;
 
 class Jogo{
 private:
 	sf::RenderWindow janela;
 	sf::RectangleShape fundo;
+
+	//ListaEntidades listaJogadores;
+	//ListaEntidades listaInimigos;
+	
 	Jogador* jogador;
 	Inimigo_comum* inimigo;
 	Inimigo_comum* inim;
 	Inimigo_comum* inim2;
 	Arqueiro* arqueiro;
+	
+
 	Menu menu;
 	Fase fase;
-
-	ListaEntidades* LEs;
 
 	int fase1;
 	int menu1;
@@ -36,7 +41,5 @@ public:
 	void eventos();
 	void printar();
 	void reiniciar();
-
-	void inicializaElementos(); // Preenche a lista com as entidades
 };
 

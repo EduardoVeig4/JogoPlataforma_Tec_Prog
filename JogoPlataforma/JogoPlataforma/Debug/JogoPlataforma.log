@@ -1,127 +1,235 @@
 ﻿  Arqueiro.cpp
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,7): error C2365: 'Elemento<TE>::item': redefinição; definição anterior era 'membro de dados'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(5): message : consulte a declaração de 'Elemento<TE>::item'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(17): message : consulte a referência à instanciação 'Elemento<TE>' do modelo da classe que está sendo compilada
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,24): error C2059: erro de sintaxe: 'this'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,1): error C2238: token(s) inesperado(s) precedendo ';'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,11): error C2065: 'TE': identificador não declarado
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2923: 'Elemento': 'TE' não é um argumento de tipo de modelo válido para parâmetro 'TE'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14): message : consulte a declaração de 'TE'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2146: erro de sintaxe: ';' ausente antes do identificador 'Elemento'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,8): error C2065: 'Entidade': identificador não declarado
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,2): error C2923: 'Lista': 'Entidade' não é um argumento de tipo de modelo válido para parâmetro 'TL'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9): message : consulte a declaração de 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,12): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,12): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,18): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(22,13): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,12): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,12): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,23): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,4): error C2144: erro de sintaxe: 'void' deve ser precedido por ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,9): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,17): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(44,16): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,11): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,11): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,27): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,11): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,11): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,24): error C2238: token(s) inesperado(s) precedendo ';'
   Entidade.cpp
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,7): error C2365: 'Elemento<TE>::item': redefinição; definição anterior era 'membro de dados'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(5): message : consulte a declaração de 'Elemento<TE>::item'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(17): message : consulte a referência à instanciação 'Elemento<TE>' do modelo da classe que está sendo compilada
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,24): error C2059: erro de sintaxe: 'this'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,1): error C2238: token(s) inesperado(s) precedendo ';'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,11): error C2065: 'TE': identificador não declarado
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2923: 'Elemento': 'TE' não é um argumento de tipo de modelo válido para parâmetro 'TE'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14): message : consulte a declaração de 'TE'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2146: erro de sintaxe: ';' ausente antes do identificador 'Elemento'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,8): error C2065: 'Entidade': identificador não declarado
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,2): error C2923: 'Lista': 'Entidade' não é um argumento de tipo de modelo válido para parâmetro 'TL'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9): message : consulte a declaração de 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,12): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,12): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,18): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(22,13): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,12): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,12): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,23): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,4): error C2144: erro de sintaxe: 'void' deve ser precedido por ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,9): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,17): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(44,16): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,11): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,11): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,27): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,11): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,11): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,24): error C2238: token(s) inesperado(s) precedendo ';'
   Fase.cpp
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,7): error C2365: 'Elemento<TE>::item': redefinição; definição anterior era 'membro de dados'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(5): message : consulte a declaração de 'Elemento<TE>::item'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(17): message : consulte a referência à instanciação 'Elemento<TE>' do modelo da classe que está sendo compilada
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,24): error C2059: erro de sintaxe: 'this'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,1): error C2238: token(s) inesperado(s) precedendo ';'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,11): error C2065: 'TE': identificador não declarado
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2923: 'Elemento': 'TE' não é um argumento de tipo de modelo válido para parâmetro 'TE'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14): message : consulte a declaração de 'TE'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2146: erro de sintaxe: ';' ausente antes do identificador 'Elemento'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,4): error C2144: erro de sintaxe: 'void' deve ser precedido por ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,9): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
   Inimigo.cpp
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,7): error C2365: 'Elemento<TE>::item': redefinição; definição anterior era 'membro de dados'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(5): message : consulte a declaração de 'Elemento<TE>::item'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(17): message : consulte a referência à instanciação 'Elemento<TE>' do modelo da classe que está sendo compilada
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,24): error C2059: erro de sintaxe: 'this'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,1): error C2238: token(s) inesperado(s) precedendo ';'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,11): error C2065: 'TE': identificador não declarado
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2923: 'Elemento': 'TE' não é um argumento de tipo de modelo válido para parâmetro 'TE'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14): message : consulte a declaração de 'TE'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2146: erro de sintaxe: ';' ausente antes do identificador 'Elemento'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,8): error C2065: 'Entidade': identificador não declarado
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,2): error C2923: 'Lista': 'Entidade' não é um argumento de tipo de modelo válido para parâmetro 'TL'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9): message : consulte a declaração de 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,12): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,12): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,18): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(22,13): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,12): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,12): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,23): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,4): error C2144: erro de sintaxe: 'void' deve ser precedido por ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,9): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,17): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(44,16): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,11): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,11): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,27): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,11): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,11): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,24): error C2238: token(s) inesperado(s) precedendo ';'
 C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Inimigo.cpp(11,50): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
 C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Inimigo.cpp(11,32): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
 C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Inimigo.cpp(25,41): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
 C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Inimigo.cpp(25,21): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
   Inimigo_comum.cpp
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,7): error C2365: 'Elemento<TE>::item': redefinição; definição anterior era 'membro de dados'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(5): message : consulte a declaração de 'Elemento<TE>::item'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(17): message : consulte a referência à instanciação 'Elemento<TE>' do modelo da classe que está sendo compilada
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,24): error C2059: erro de sintaxe: 'this'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,1): error C2238: token(s) inesperado(s) precedendo ';'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,11): error C2065: 'TE': identificador não declarado
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2923: 'Elemento': 'TE' não é um argumento de tipo de modelo válido para parâmetro 'TE'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14): message : consulte a declaração de 'TE'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2146: erro de sintaxe: ';' ausente antes do identificador 'Elemento'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,8): error C2065: 'Entidade': identificador não declarado
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,2): error C2923: 'Lista': 'Entidade' não é um argumento de tipo de modelo válido para parâmetro 'TL'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9): message : consulte a declaração de 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,12): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,12): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,18): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(22,13): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,12): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,12): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,23): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,4): error C2144: erro de sintaxe: 'void' deve ser precedido por ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,9): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,17): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(44,16): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,11): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,11): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,27): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,11): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,11): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,24): error C2238: token(s) inesperado(s) precedendo ';'
   Jogador.cpp
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,7): error C2365: 'Elemento<TE>::item': redefinição; definição anterior era 'membro de dados'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(5): message : consulte a declaração de 'Elemento<TE>::item'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(17): message : consulte a referência à instanciação 'Elemento<TE>' do modelo da classe que está sendo compilada
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,24): error C2059: erro de sintaxe: 'this'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,1): error C2238: token(s) inesperado(s) precedendo ';'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,11): error C2065: 'TE': identificador não declarado
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2923: 'Elemento': 'TE' não é um argumento de tipo de modelo válido para parâmetro 'TE'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14): message : consulte a declaração de 'TE'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2146: erro de sintaxe: ';' ausente antes do identificador 'Elemento'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,8): error C2065: 'Entidade': identificador não declarado
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,2): error C2923: 'Lista': 'Entidade' não é um argumento de tipo de modelo válido para parâmetro 'TL'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9): message : consulte a declaração de 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,12): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,12): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,18): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(22,13): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,12): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,12): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,23): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,4): error C2144: erro de sintaxe: 'void' deve ser precedido por ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,9): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,17): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(44,16): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,11): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,11): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,27): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,11): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,11): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,24): error C2238: token(s) inesperado(s) precedendo ';'
   Jogo.cpp
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,7): error C2365: 'Elemento<TE>::item': redefinição; definição anterior era 'membro de dados'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(5): message : consulte a declaração de 'Elemento<TE>::item'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(17): message : consulte a referência à instanciação 'Elemento<TE>' do modelo da classe que está sendo compilada
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,24): error C2059: erro de sintaxe: 'this'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,1): error C2238: token(s) inesperado(s) precedendo ';'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,11): error C2065: 'TE': identificador não declarado
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2923: 'Elemento': 'TE' não é um argumento de tipo de modelo válido para parâmetro 'TE'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14): message : consulte a declaração de 'TE'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2146: erro de sintaxe: ';' ausente antes do identificador 'Elemento'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,8): error C2065: 'Entidade': identificador não declarado
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,2): error C2923: 'Lista': 'Entidade' não é um argumento de tipo de modelo válido para parâmetro 'TL'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9): message : consulte a declaração de 'Entidade'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(107,23): error C2662: 'void Lista<TL>::push(TL *)': não é possível converter ponteiro 'this' de 'Lista' para 'Lista<TL> &'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(107,23): message : Razão: não é possível converter de 'Lista' para 'Lista<TL>'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(107,5): message : Conversão requer um segundo operador de conversão definida pelo usuário ou construtor
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Lista.h(42,10): message : consulte a declaração de 'Lista<TL>::push'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(108,23): error C2662: 'void Lista<TL>::push(TL *)': não é possível converter ponteiro 'this' de 'Lista' para 'Lista<TL> &'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(108,23): message : Razão: não é possível converter de 'Lista' para 'Lista<TL>'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(108,5): message : Conversão requer um segundo operador de conversão definida pelo usuário ou construtor
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Lista.h(42,10): message : consulte a declaração de 'Lista<TL>::push'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(109,20): error C2662: 'void Lista<TL>::push(TL *)': não é possível converter ponteiro 'this' de 'Lista' para 'Lista<TL> &'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(109,20): message : Razão: não é possível converter de 'Lista' para 'Lista<TL>'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(109,5): message : Conversão requer um segundo operador de conversão definida pelo usuário ou construtor
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Lista.h(42,10): message : consulte a declaração de 'Lista<TL>::push'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(110,21): error C2662: 'void Lista<TL>::push(TL *)': não é possível converter ponteiro 'this' de 'Lista' para 'Lista<TL> &'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(110,21): message : Razão: não é possível converter de 'Lista' para 'Lista<TL>'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(110,5): message : Conversão requer um segundo operador de conversão definida pelo usuário ou construtor
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Lista.h(42,10): message : consulte a declaração de 'Lista<TL>::push'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(111,24): error C2662: 'void Lista<TL>::push(TL *)': não é possível converter ponteiro 'this' de 'Lista' para 'Lista<TL> &'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(111,24): message : Razão: não é possível converter de 'Lista' para 'Lista<TL>'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Jogo.cpp(111,5): message : Conversão requer um segundo operador de conversão definida pelo usuário ou construtor
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Lista.h(42,10): message : consulte a declaração de 'Lista<TL>::push'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,12): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,12): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,18): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(22,13): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,12): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,12): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,23): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,4): error C2144: erro de sintaxe: 'void' deve ser precedido por ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,9): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,17): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(44,16): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,11): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,11): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,27): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,11): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,11): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,24): error C2238: token(s) inesperado(s) precedendo ';'
+  ListaEntidades.cpp
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,4): error C2144: erro de sintaxe: 'void' deve ser precedido por ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,9): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(16,2): error C2653: 'ListaEntidades': não é um nome de classe ou de namespace
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(16,63): error C2061: erro de sintaxe: identificador 'Elemento'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(16,115): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(17,24): error C2065: 'Prox': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(17,39): error C2065: 'Ante': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(17,46): error C2550: 'personagens::Elemento': listas de inicializadores de construtor são permitidas apenas em definições de construtor
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(19,2): warning C4508: 'personagens::Elemento': função deve retornar um valor; tipo de retorno 'void' assumido
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(21,2): error C2653: 'ListaEntidades': não é um nome de classe ou de namespace
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(21,29): error C2523: '<Desconhecido>::~Elemento': incompatibilidade de marca de destruidor
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(21,40): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(23,2): warning C4508: 'personagens::Elemento': função deve retornar um valor; tipo de retorno 'void' assumido
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(25,12): error C2653: 'ListaEntidades': não é um nome de classe ou de namespace
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(26,10): error C2065: 'item': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(29,7): error C2653: 'ListaEntidades': não é um nome de classe ou de namespace
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(30,3): error C2065: 'item': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(33,2): error C2653: 'ListaEntidades': não é um nome de classe ou de namespace
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(33,26): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(33,26): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(33,18): error C2365: 'personagens::Elemento': redefinição; definição anterior era 'função'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(33,28): error C2653: 'ListaEntidades': não é um nome de classe ou de namespace
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(33,64): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(33,64): error C2059: erro de sintaxe: '{'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(33,64): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(33,64): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(37,7): error C2653: 'ListaEntidades': não é um nome de classe ou de namespace
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(37,33): error C2182: 'setProx': uso inválido de tipo 'void'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(37,51): error C2065: 'Prox': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(37,55): error C2563: incompatibilidade na lista de parâmetros formais
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(37,57): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(37,57): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(41,2): error C2653: 'ListaEntidades': não é um nome de classe ou de namespace
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(41,26): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(41,26): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(41,18): error C2365: 'personagens::Elemento': redefinição; definição anterior era 'função'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(41,28): error C2653: 'ListaEntidades': não é um nome de classe ou de namespace
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(41,64): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(41,64): error C2059: erro de sintaxe: '{'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(41,64): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(41,64): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(45,7): error C2653: 'ListaEntidades': não é um nome de classe ou de namespace
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(45,33): error C2182: 'setAnte': uso inválido de tipo 'void'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(45,51): error C2065: 'Ante': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(45,55): error C2563: incompatibilidade na lista de parâmetros formais
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(45,57): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(45,57): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(50,2): error C2653: 'ListaEntidades': não é um nome de classe ou de namespace
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(50,35): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(51,55): error C2550: 'personagens::ListaEntidades': listas de inicializadores de construtor são permitidas apenas em definições de construtor
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(53,2): warning C4508: 'personagens::ListaEntidades': função deve retornar um valor; tipo de retorno 'void' assumido
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(55,2): error C2653: 'ListaEntidades': não é um nome de classe ou de namespace
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(55,19): error C2523: '<Desconhecido>::~ListaEntidades': incompatibilidade de marca de destruidor
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(55,36): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(55,33): error C2084: função 'int personagens::ListaEntidades(void)' já possui um corpo
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(50): message : consulte a definição anterior de 'ListaEntidades'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(56,3): error C3861: 'esvaziar': identificador não encontrado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(59,7): error C2653: 'ListaEntidades': não é um nome de classe ou de namespace
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(61,14): error C2065: 'novo': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(61,19): error C2563: incompatibilidade na lista de parâmetros formais
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(61,25): error C2061: erro de sintaxe: identificador 'Elemento'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(63,9): error C2065: 'inicio': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(64,5): error C2065: 'inicio': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(64,14): error C2065: 'novo': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(65,5): error C2065: 'fim': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(65,11): error C2065: 'novo': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(69,5): error C2065: 'fim': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(69,18): error C2065: 'novo': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(70,5): error C2065: 'novo': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(70,19): error C2065: 'fim': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(72,5): error C2065: 'fim': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(72,11): error C2065: 'novo': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(77,7): error C2653: 'ListaEntidades': não é um nome de classe ou de namespace
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(78,13): error C2065: 'pAux': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(78,18): error C2563: incompatibilidade na lista de parâmetros formais
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(78,20): error C2065: 'inicio': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(79,3): error C2065: 'atual': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(79,11): error C2065: 'inicio': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(81,10): error C2065: 'atual': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(82,4): error C2065: 'pAux': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(82,11): error C2065: 'atual': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(83,11): error C2065: 'atual': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(83,16): error C2541: 'delete': não é possível excluir objetos que não são ponteiros
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(84,4): error C2065: 'atual': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(84,12): error C2065: 'pAux': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(87,3): error C2065: 'inicio': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(88,3): error C2065: 'fim': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(89,3): error C2065: 'atual': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(92,12): error C2653: 'ListaEntidades': não é um nome de classe ou de namespace
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(93,3): error C2065: 'atual': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(93,11): error C2065: 'inicio': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(95,7): error C2065: 'atual': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(95,21): error C2065: 'atual': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(99,12): error C2653: 'ListaEntidades': não é um nome de classe ou de namespace
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(100,3): error C2065: 'atual': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(100,11): error C2065: 'atual': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(102,10): error C2065: 'atual': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(102,19): error C2065: 'atual': identificador não declarado
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.cpp(122,7): error C2653: 'ListaEntidades': não é um nome de classe ou de namespace
   main.cpp
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,7): error C2365: 'Elemento<TE>::item': redefinição; definição anterior era 'membro de dados'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(5): message : consulte a declaração de 'Elemento<TE>::item'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(17): message : consulte a referência à instanciação 'Elemento<TE>' do modelo da classe que está sendo compilada
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,24): error C2059: erro de sintaxe: 'this'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(12,1): error C2238: token(s) inesperado(s) precedendo ';'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,11): error C2065: 'TE': identificador não declarado
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2923: 'Elemento': 'TE' não é um argumento de tipo de modelo válido para parâmetro 'TE'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14): message : consulte a declaração de 'TE'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Elemento.h(14,2): error C2146: erro de sintaxe: ';' ausente antes do identificador 'Elemento'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,8): error C2065: 'Entidade': identificador não declarado
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9,2): error C2923: 'Lista': 'Entidade' não é um argumento de tipo de modelo válido para parâmetro 'TL'
-C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(9): message : consulte a declaração de 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,12): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,12): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(19,18): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(22,13): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,12): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,12): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(26,23): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,4): error C2144: erro de sintaxe: 'void' deve ser precedido por ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,9): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(27,17): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(44,16): error C2061: erro de sintaxe: identificador 'Entidade'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,11): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,11): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(46,27): error C2238: token(s) inesperado(s) precedendo ';'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,11): error C2143: erro de sintaxe: ';' ausente antes de '*'
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,11): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\ListaEntidades.h(47,24): error C2238: token(s) inesperado(s) precedendo ';'
 C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\main.cpp(9,15): warning C4244: 'argumento': conversão de 'time_t' para 'unsigned int', possível perda de dados
   Gerando Código...
