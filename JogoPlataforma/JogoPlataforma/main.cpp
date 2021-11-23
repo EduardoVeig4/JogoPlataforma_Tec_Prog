@@ -4,10 +4,12 @@
 #include "Jogo.h"
 #include <iostream>
 
-int main()
-{
-    srand(time(NULL));
-    Jogo jogo;
+namespace Jogo{
+    int main() {
+        srand(time(NULL));
+        Jogo jogo;
+
+    }
 }
 
 // Executar programa: Ctrl + F5 ou Menu Depurar > Iniciar Sem Depuração

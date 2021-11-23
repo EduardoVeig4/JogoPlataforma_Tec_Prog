@@ -1,7 +1,7 @@
 #pragma once
 #include "Entidade.h"
 #include "Lista.hpp"
-#include "ListaImplementacao.hpp"
+#include "ListaImplementacao.h"
 
 /*
 namespace sf {
@@ -9,25 +9,31 @@ namespace sf {
 }
 */
 
-namespace lPersonagens {
+namespace Jogo {
 
-	//class GerenciadorGrafico;
-	//class GerenciadorEventos;
+	namespace Lista {
 
-	class ListaEntidades {
-	private:
-		Lista<Entidade*> lista;
+		//namespace Entidades {
 
-	public:
-		ListaEntidades();
-		~ListaEntidades();
+			//class GerenciadorGrafico;
+			//class GerenciadorEventos;
 
-		void inserir(Entidade* item);
+			class ListaEntidades {
+			private:
+				Lista<Entidades::Entidade*> lista;
 
-		//void atualizarEntidades(float t);
-		//void desenharEntidades(sf::RenderWindow* janela);
-		//void inicializarEntidade(GerenciadorGrafico &ge, GerenciadorEventos &gf);
-		
-		void destruirEntidades();
-	};
+			public:
+				ListaEntidades();
+				~ListaEntidades();
+
+				void inserir(Entidades::Entidade* item);
+
+				//void atualizarEntidades(float t);
+				//void desenharEntidades(sf::RenderWindow* janela);
+				//void inicializarEntidade(GerenciadorGrafico &ge, GerenciadorEventos &gf);
+
+				void destruirEntidades();
+			};
+		//}
+	}
 }

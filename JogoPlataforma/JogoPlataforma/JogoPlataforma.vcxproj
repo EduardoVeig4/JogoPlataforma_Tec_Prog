@@ -151,6 +151,7 @@
     <ClCompile Include="Ente.cpp" />
     <ClCompile Include="Entidade.cpp" />
     <ClCompile Include="Fase.cpp" />
+    <ClCompile Include="GerenciadorEventos.cpp" />
     <ClCompile Include="Inimigo.cpp" />
     <ClCompile Include="Inimigo_comum.cpp" />
     <ClCompile Include="Jogador.cpp" />
@@ -165,13 +166,14 @@
     <ClInclude Include="Ente.h" />
     <ClInclude Include="Entidade.h" />
     <ClInclude Include="Fase.h" />
+    <ClInclude Include="GerenciadorEventos.h" />
     <ClInclude Include="Inimigo.h" />
     <ClInclude Include="Inimigo_comum.h" />
     <ClInclude Include="Jogador.h" />
     <ClInclude Include="Jogo.h" />
     <ClInclude Include="Lista.hpp" />
     <ClInclude Include="ListaEntidades.h" />
-    <ClInclude Include="ListaImplementacao.hpp" />
+    <ClInclude Include="ListaImplementacao.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Textura1.h" />
   </ItemGroup>

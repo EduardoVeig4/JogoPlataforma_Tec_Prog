@@ -3,14 +3,16 @@
 #include "Textura1.h"
 #include "ListaEntidades.h"
 
-class Fase :public Ente,public Textura1{
-protected:
-	sf::RectangleShape fundo;
+namespace Jogo {
+	class Fase :public Ente, public Textura1 {
+	protected:
+		sf::RectangleShape fundo;
 
-public:
-	Fase();
-	~Fase();
-	void selecionar(int i);
-	void mover();
-};
+	public:
+		Fase();
+		~Fase();
+		void selecionar(int i);
+		void mover();
+	};
+}
 

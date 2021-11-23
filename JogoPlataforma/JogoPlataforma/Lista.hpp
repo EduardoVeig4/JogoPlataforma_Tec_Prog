@@ -1,46 +1,50 @@
 #pragma once
 
-namespace lPersonagens {
+namespace Jogo {
 
-	template <typename T>
-	class Lista {
-	private:
+	namespace Lista {
 
-		class Elemento {
+		template <typename TL>
+		class Lista {
 		private:
-			Elemento* pProx;
-			Elemento* pAnte;
-			T item;
+
+			template <typename TE>
+			class Elemento {
+			private:
+				Elemento<TE>* pProx;
+				Elemento<TE>* pAnte;
+				TE item;
+
+			public:
+				Elemento(TE Item = nullptr, Elemento* Prox = nullptr, Elemento* Ante = nullptr);
+				~Elemento();
+
+				// Gets e Sets
+				TE& getItem();
+				void setItem(TE* Item);
+
+				Elemento<TE>* getProx();
+				void setProx(Elemento<TE>* Prox);
+
+				Elemento<TE>* getAnte();
+				void setAnte(Elemento<TE>* Ante);
+			};
+
+			Elemento<TL>* inicio;
+			Elemento<TL>* fim;
+			Elemento<TL>* atual;
 
 		public:
-			Elemento(T Item = nullptr, Elemento* Prox = nullptr, Elemento* Ante = nullptr);
-			~Elemento();
+			Lista();
+			~Lista();
 
-			// Gets e Sets
-			T getItem();
-				void setItem(T Item);
+			void inserir(const TL& item);
+			void esvaziar();
 
-			Elemento* getProx();
-			void setProx(Elemento* Prox);
-
-			Elemento* getAnte();
-			void setAnte(Elemento* Ante);
+			TL voltarInicio();
+			TL irProximo();
 		};
-
-		Elemento* inicio;
-		Elemento* fim;
-		Elemento* atual;
-
-	public:
-		Lista();
-		~Lista();
-
-		void inserir(T item);
-		void esvaziar();
-
-		T voltarInicio();
-		T irProximo();
-	};
+	}
 }
 
-#include "ListaImplementacao.hpp"
+#include "ListaImplementacao.h"
