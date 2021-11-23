@@ -29,7 +29,8 @@ namespace Jogo {
 			void setPos(float x, float y);
 			sf::Vector2f getPos();
 
-			void setxy(float x, float y);
+			void setxyCorpo(float x, float y);
+			void setxy();
 
 			/*
 			// Mudei para Vector2f

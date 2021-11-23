@@ -61,7 +61,11 @@ namespace Jogo {
 		}
 		*/
 
-		void Entidade::setxy(float x, float y) {
+		void Entidade::setxy() {
+			posicao = sf::Vector2f(corpo.getPosition().x, corpo.getPosition().y);
+		}
+
+		void Entidade::setxyCorpo(float x, float y) {
 			corpo.setPosition(x, y);
 			posicao = sf::Vector2f(corpo.getPosition().x, corpo.getPosition().y);
 			//x = corpo.getPosition().x;

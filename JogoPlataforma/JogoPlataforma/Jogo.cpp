@@ -5,24 +5,26 @@ using namespace std;
 
 namespace Jogo {
 
-	namespace Lista {
+	//namespace Lista {
 
-		namespace Entidades {
+		//namespace Entidades {
 
 			Jogo::Jogo() :
 				janela(sf::VideoMode(1280, 720), "Mr. Roboto - game by Eduardo && Pedro") {
 				menu1 = 1;
 				fase1 = 1;
 
+				
 				// Inserção dos jogadores
-				listaJogadores.inserir(new Jogador());
-				listaJogadores.inserir(new Jogador());
+				listaJogadores.inserir(new Entidades::Jogador());
+				listaJogadores.inserir(new Entidades::Jogador());
 
 				// Inserção dos inimigos
-				listaJogadores.inserir(new Inimigo_comum());
-				listaJogadores.inserir(new Inimigo_comum());
-				listaJogadores.inserir(new Inimigo_comum());
-				listaJogadores.inserir(new Arqueiro());
+				listaJogadores.inserir(new Entidades::Inimigo_comum());
+				listaJogadores.inserir(new Entidades::Inimigo_comum());
+				listaJogadores.inserir(new Entidades::Inimigo_comum());
+				listaJogadores.inserir(new Entidades::Arqueiro::Arqueiro());
+				
 
 				inicializar();
 				executar();
@@ -70,28 +72,34 @@ namespace Jogo {
 			}
 
 			void Jogo::gravidade() {
+				/*
 				jogador->setDy((float)GRAVIDADE);
 				inimigo->setDy((float)GRAVIDADE);
 				inim->setDy((float)GRAVIDADE);
 				inim2->setDy((float)GRAVIDADE);
 				arqueiro->setDy((float)GRAVIDADE);
+				*/
 			}
 
 			void Jogo::inicializar() {
 				//Janela das entidades
+				/*
 				jogador->setJanela(&janela);
 				inimigo->setJanela(&janela);
 				inim->setJanela(&janela);
 				inim2->setJanela(&janela);
 				arqueiro->setJanela(&janela);
+				*/
 				menu.setJanela(&janela);
 				fase.setJanela(&janela);
 
 				//Atribuir jogador aos inimigos
+				/*
 				inimigo->setJogador(jogador);
 				inim->setJogador(jogador);
 				inim2->setJogador(jogador);
 				arqueiro->setJogador(jogador);
+				*/
 			}
 
 			void Jogo::eventos() {
@@ -112,7 +120,7 @@ namespace Jogo {
 					if (evento.type == sf::Event::KeyPressed) {
 						if (evento.key.code == sf::Keyboard::P) {
 							reiniciar();
-							jogador->morrer(1);
+							//jogador->morrer(1);
 
 						}
 					}
@@ -122,20 +130,24 @@ namespace Jogo {
 
 			void Jogo::printar() {
 				fase.selecionar(fase1);
+				/*
 				jogador->executar();
 				inimigo->executar();
 				arqueiro->executar();
 				inim->executar();
 				inim2->executar();
+				*/
 			}
 
 			void Jogo::reiniciar() {
+				/*
 				jogador->setxy(0, 0);
 				inim->reiniciar();
 				arqueiro->reiniciar();
 				inim2->reiniciar();
 				inimigo->reiniciar();
+				*/
 			}
-		}
-	}
+		//}
+	//}
 }

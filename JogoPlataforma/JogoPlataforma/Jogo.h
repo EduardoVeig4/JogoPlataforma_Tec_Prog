@@ -13,9 +13,9 @@
 
 namespace Jogo {
 
-	namespace Lista {
+	//namespace Lista {
 
-		namespace Entidades {
+		//namespace Entidades {
 
 			class Jogo {
 			private:
@@ -24,8 +24,8 @@ namespace Jogo {
 
 				GerenciadorEventos gerenciadorEventos;
 
-				Lista<Entidades::Jogador*> listaJogadores;
-				Lista<Entidades::Inimigo*> listaInimigos;
+				Lista::ListaEntidades listaJogadores;
+				Lista::ListaEntidades listaInimigos;
 
 				/*
 				Jogador* jogador;
@@ -50,6 +50,6 @@ namespace Jogo {
 				void printar();
 				void reiniciar();
 			};
-		}
-	}
+		//}
+	//}
 }

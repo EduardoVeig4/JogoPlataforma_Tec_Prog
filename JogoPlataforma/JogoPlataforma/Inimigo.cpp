@@ -30,7 +30,7 @@ namespace Jogo {
 				}
 				void Inimigo::reiniciar() {
 					vidas = 5;
-					setxy(rand() % 900 + 100, rand() % 500 + 100);
+					setxyCorpo(rand() % 900 + 100, rand() % 500 + 100);
 				}
 			//}
 		//}

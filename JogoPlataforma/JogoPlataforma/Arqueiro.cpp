@@ -26,14 +26,14 @@ namespace Jogo {
 				dy += dyy;
 			}
 			void Arqueiro::atirar() {
-				if (fabs((float)flecha.getPosition().x - corpo.getPosition().x) > 1000 && fabs(corpo.getPosition().x - pJogador->getx()) < 100000) {
+				if (fabs((float)flecha.getPosition().x - corpo.getPosition().x) > 1000 && fabs(corpo.getPosition().x - pJogador->getPos().x) < 100000) {
 					flecha.setPosition(corpo.getPosition().x, corpo.getPosition().y + 50);
 					flecha.setFillColor(sf::Color::Magenta);
 
 				}
 				flecha.move(-0.5f, 0.f);
 				janela->draw(flecha);
-				if (fabs(flecha.getPosition().x - pJogador->getx()) < 100 && fabs(flecha.getPosition().y - pJogador->gety()) < 100) {
+				if (fabs(flecha.getPosition().x - pJogador->getPos().x) < 100 && fabs(flecha.getPosition().y - pJogador->getPos().y) < 100) {
 					flecha.setPosition(9000, 9000);
 					//Codigo pra matar o jogador,comentei pois dificulta o teste
 					//pJogador->morrer(0);
@@ -62,7 +62,7 @@ namespace Jogo {
 				if (vidas > 0) {
 					//setx();
 					//sety();
-					setPos();
+					setxy();
 					atirar();
 					mover();
 					morrer();

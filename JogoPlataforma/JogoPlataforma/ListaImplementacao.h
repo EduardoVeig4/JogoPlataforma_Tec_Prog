@@ -7,7 +7,7 @@ namespace Jogo {
 		// Métodos da classe aninhada Elemento ---------------------------------------------------------
 		template <typename TL>
 		template <typename TE>
-		Lista<TL>::Elemento<TE>::Elemento(TE Item, Elemento* Prox, Elemento* Ante) :
+		Lista<TL>::Elemento<TE>::Elemento(TE* Item, Elemento* Prox, Elemento* Ante) :
 			item{ Item }, pProx{ Prox }, pAnte{ Ante } {
 
 		}
@@ -20,7 +20,7 @@ namespace Jogo {
 
 		template <typename TL>
 		template <typename TE>
-		TE& Lista<TL>::Elemento<TE>::getItem() {
+		TE* Lista<TL>::Elemento<TE>::getItem() {
 			return item;
 		}
 
@@ -67,16 +67,19 @@ namespace Jogo {
 		}
 
 		template <typename TL>
-		void Lista<TL>::inserir(const TL& Item) {
-			if (Item) {
-				Elemento* novo = new Elemento(Item);
+		//template <typename TE>
+		void Lista<TL>::inserirItem(TL* novoItem) {
+			if (novoItem) {
+				Elemento<TL>* novo = new Elemento<TL>();
 
 				if (!inicio) {
+					novo->setItem(novoItem);
 					inicio = novo;
 					fim = novo;
 				}
 
 				else {
+					novo->setItem(novoItem);
 					fim->setProx(novo);
 					novo->setAnte(fim);
 
@@ -87,7 +90,7 @@ namespace Jogo {
 
 		template <typename TL>
 		void Lista<TL>::esvaziar() {
-			Elemento* pAux = inicio;
+			Elemento<TL>* pAux = inicio;
 			atual = inicio;
 
 			while (atual != nullptr) {
@@ -102,7 +105,7 @@ namespace Jogo {
 		}
 
 		template <typename TL>
-		TL Lista<TL>::voltarInicio() {
+		TL* Lista<TL>::voltarInicio() {
 			atual = inicio;
 
 			if (atual) return atual->getItem();
@@ -110,7 +113,7 @@ namespace Jogo {
 		}
 
 		template <typename TL>
-		TL Lista<TL>::irProximo() {
+		TL* Lista<TL>::irProximo() {
 			atual = atual->getProx();
 
 			return(atual) ? atual->getItem() : nullptr; // Operador Ternário

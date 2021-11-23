@@ -1,5 +1,5 @@
 #pragma once
-#include "Entidade.h"
+
 #include "Lista.hpp"
 #include "ListaImplementacao.h"
 
@@ -11,6 +11,10 @@ namespace sf {
 
 namespace Jogo {
 
+	namespace Entidades {
+		class Entidade;
+	}
+
 	namespace Lista {
 
 		//namespace Entidades {
@@ -20,7 +24,7 @@ namespace Jogo {
 
 			class ListaEntidades {
 			private:
-				Lista<Entidades::Entidade*> lista;
+				Lista<Entidades::Entidade> lista;
 
 			public:
 				ListaEntidades();
@@ -28,7 +32,7 @@ namespace Jogo {
 
 				void inserir(Entidades::Entidade* item);
 
-				//void atualizarEntidades(float t);
+				//void atualizarEntidades(float t)
 				//void desenharEntidades(sf::RenderWindow* janela);
 				//void inicializarEntidade(GerenciadorGrafico &ge, GerenciadorEventos &gf);
 

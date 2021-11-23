@@ -13,14 +13,14 @@ namespace Jogo {
 			private:
 				Elemento<TE>* pProx;
 				Elemento<TE>* pAnte;
-				TE item;
+				TE* item;
 
 			public:
-				Elemento(TE Item = nullptr, Elemento* Prox = nullptr, Elemento* Ante = nullptr);
+				Elemento(TE* Item = nullptr, Elemento* Prox = nullptr, Elemento* Ante = nullptr);
 				~Elemento();
 
 				// Gets e Sets
-				TE& getItem();
+				TE* getItem();
 				void setItem(TE* Item);
 
 				Elemento<TE>* getProx();
@@ -38,11 +38,11 @@ namespace Jogo {
 			Lista();
 			~Lista();
 
-			void inserir(const TL& item);
+			void inserirItem(TL* item);
 			void esvaziar();
 
-			TL voltarInicio();
-			TL irProximo();
+			TL* voltarInicio();
+			TL* irProximo();
 		};
 	}
 }

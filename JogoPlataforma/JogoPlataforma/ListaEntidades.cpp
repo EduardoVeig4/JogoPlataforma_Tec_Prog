@@ -1,5 +1,6 @@
 #pragma once
 #include "ListaEntidades.h"
+#include "Entidade.h"
 
 namespace Jogo {
 
@@ -12,15 +13,13 @@ namespace Jogo {
 			}
 
 			ListaEntidades::~ListaEntidades() {
-
-			}
-
-			ListaEntidades::~ListaEntidades() {
 				destruirEntidades();
 			}
 
 			void ListaEntidades::inserir(Entidades::Entidade* Item) {
-				lista.inserir(Item);
+				if (Item) {
+					lista.inserirItem(Item);
+				}
 			}
 
 			/*

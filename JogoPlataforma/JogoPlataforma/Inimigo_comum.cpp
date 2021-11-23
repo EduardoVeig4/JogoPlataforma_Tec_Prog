@@ -27,12 +27,12 @@ namespace Jogo {
 				dy += dyy;
 			}
 			void Inimigo_comum::perseguir() {
-				if (corpo.getPosition().x - getJogador()->getx() < 200 && corpo.getPosition().x - getJogador()->getx() > 100) {
+				if (corpo.getPosition().x - getJogador()->getPos().x < 200 && corpo.getPosition().x - getJogador()->getPos().x > 100) {
 					corpo.move(-0.16f, 0.0f);
 					corpo.setFillColor(sf::Color::Red);
 					flag_perseguir = 1;
 				}
-				else if (corpo.getPosition().x - getJogador()->getx() > -200 && corpo.getPosition().x - getJogador()->getx() < -100) {
+				else if (corpo.getPosition().x - getJogador()->getPos().x > -200 && corpo.getPosition().x - getJogador()->getPos().x < -100) {
 					corpo.move(0.16f, 0.0f);
 					corpo.setFillColor(sf::Color::Red);
 					flag_perseguir = 1;
@@ -66,8 +66,8 @@ namespace Jogo {
 			}
 			void Inimigo_comum::executar() {
 				if (vidas > 0) {
-					setx();
-					sety();
+					//setx();
+					//sety();
 					mover();
 					perseguir();
 					imprimir();
@@ -84,7 +84,7 @@ namespace Jogo {
 				}
 			}
 			void Inimigo_comum::matar() {
-				if (fabs(corpo.getPosition().x - pJogador->getx()) < 100 && fabs(corpo.getPosition().y - pJogador->gety()) < 100) {
+				if (fabs(corpo.getPosition().x - pJogador->getPos().x) < 100 && fabs(corpo.getPosition().y - pJogador->getPos().x) < 100) {
 					pJogador->morrer(0);
 				}
 			//}
