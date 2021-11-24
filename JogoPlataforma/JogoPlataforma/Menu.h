@@ -1,10 +1,18 @@
 #pragma once
-#include "Entidade.h"
-class Menu :public Entidade{
-private:
-public:
-	Menu();
-	~Menu();
-	void mover();
-};
+#include "Ente.h"
+#include "Textura1.h"
+
+namespace Jogo {
+	class Menu :public Ente, public Textura1 {
+	private:
+		sf::RectangleShape fundo;
+		sf::RectangleShape tela_fim;
+	public:
+		Menu();
+		~Menu();
+		void executar();
+		void morto();
+		void pausa();
+	};
+}
 

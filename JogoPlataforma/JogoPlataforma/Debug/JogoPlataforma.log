@@ -1,1 +1,15 @@
-﻿  JogoPlataforma.vcxproj -> C:\Users\epont\source\repos\JogoPlataforma_Tec_Prog\JogoPlataforma\Debug\JogoPlataforma.exe
+﻿  Arqueiro.cpp
+  Entidade.cpp
+  Inimigo.cpp
+C:\Pedro Prog\..Realmente Programaçao\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Inimigo.cpp(18,57): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Pedro Prog\..Realmente Programaçao\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Inimigo.cpp(18,37): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Pedro Prog\..Realmente Programaçao\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Inimigo.cpp(32,50): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Pedro Prog\..Realmente Programaçao\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\Inimigo.cpp(32,30): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+  Inimigo_comum.cpp
+  Jogador.cpp
+  Jogo.cpp
+  ListaEntidades.cpp
+  main.cpp
+C:\Pedro Prog\..Realmente Programaçao\JogoPlataforma_Tec_Prog\JogoPlataforma\JogoPlataforma\main.cpp(8,15): warning C4244: 'argumento': conversão de 'time_t' para 'unsigned int', possível perda de dados
+  Gerando Código...
+  JogoPlataforma.vcxproj -> C:\Pedro Prog\..Realmente Programaçao\JogoPlataforma_Tec_Prog\JogoPlataforma\Debug\JogoPlataforma.exe

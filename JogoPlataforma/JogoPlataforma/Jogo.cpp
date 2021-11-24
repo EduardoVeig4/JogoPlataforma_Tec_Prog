@@ -1,71 +1,142 @@
 #include "Jogo.h"
-#define GRAVIDADE 0.0008
+
 #include<iostream>
 using namespace std;
 
-Jogo::Jogo():
-	janela(sf::VideoMode::getDesktopMode(),"Sla",sf::Style::Fullscreen){
-		inicializar();
-		executar();
-		
-}
-Jogo::~Jogo() {
-}
+namespace Jogo {
 
-void Jogo::executar() {
-	int flag_menu = 1;
-	sf::RectangleShape fundo(sf::Vector2f(9000, (int)janela.getSize().y));
-	sf::Texture back;
-	back.loadFromFile("background.png");
-	//back.setRepeated(true);
-	fundo.setTexture(&back, true);
-	janela.setKeyRepeatEnabled(false);
-	while (janela.isOpen()) {
-		janela.setKeyRepeatEnabled(true);
-		sf::Event evento;
-		while (janela.pollEvent(evento)) {
-			if (evento.type == sf::Event::Closed) {
-				janela.close();
+	//namespace Lista {
+
+		//namespace Entidades {
+
+			Jogo::Jogo() :
+				janela(sf::VideoMode(1280, 720), "Mr. Roboto - game by Eduardo && Pedro") {
+				menu1 = 1;
+				fase1 = 1;
+
+				
+				// Inserção dos jogadores
+				listaJogadores.inserir(new Entidades::Jogador());
+				listaJogadores.inserir(new Entidades::Jogador());
+
+				// Inserção dos inimigos
+				listaJogadores.inserir(new Entidades::Inimigo_comum());
+				listaJogadores.inserir(new Entidades::Inimigo_comum());
+				listaJogadores.inserir(new Entidades::Inimigo_comum());
+				listaJogadores.inserir(new Entidades::Arqueiro::Arqueiro());
+				
+
+				inicializar();
+				executar();
+
+
 			}
-			if (evento.type == sf::Event::KeyPressed) {
-				if (evento.key.code == sf::Keyboard::Escape) {
-					flag_menu *= -1;
+			Jogo::~Jogo() {
+			}
+
+			void Jogo::executar() {
+				janela.setKeyRepeatEnabled(false);
+
+				while (janela.isOpen()) {
+					janela.clear();
+					eventos();
+					if (menu1 == 1) {
+						menu.pausa();
+						menu.executar();
+						if (sf::Keyboard::isKeyPressed(sf::Keyboard::Num2)) {
+							fase1 = 2;
+							reiniciar();
+						}
+
+						if (sf::Keyboard::isKeyPressed(sf::Keyboard::Num1)) {
+							fase1 = 1;
+							reiniciar();
+						}
+					}
+
+					else {
+						printar();
+						/* Codigo pra tela de morte
+						while (jogador.getVivo() != 1) {
+							janela.clear();
+							menu.morto();
+							eventos();
+							janela.display();
+
+						}*/
+					}
+					janela.display();
 				}
 			}
-		}
-		if (flag_menu == 1) {
-			janela.clear();
-			menu.imprimir();
-		}
-		else {
-			janela.clear(sf::Color::Green);
-			janela.draw(fundo);
-			jogador.executar();
-			inimigo.imprimir();
-			if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)) {
-				fundo.move(-0.1f, 0.f);
+
+
+			void Jogo::inicializar() {
+				//Janela das entidades
+				/*
+				jogador->setJanela(&janela);
+				inimigo->setJanela(&janela);
+				inim->setJanela(&janela);
+				inim2->setJanela(&janela);
+				arqueiro->setJanela(&janela);
+				*/
+				menu.setJanela(&janela);
+				fase.setJanela(&janela);
+
+				//Atribuir jogador aos inimigos
+				/*
+				inimigo->setJogador(jogador);
+				inim->setJogador(jogador);
+				inim2->setJogador(jogador);
+				arqueiro->setJogador(jogador);
+				*/
 			}
-			if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
-				fundo.move(+0.1f, 0.f);
+
+			void Jogo::eventos() {
+				sf::Event evento;
+				while (janela.pollEvent(evento)) {
+					//Evento que fecha o jogo
+					if (evento.type == sf::Event::Closed) {
+						janela.close();
+					}
+
+					//Evento que ativa o menu
+					if (evento.type == sf::Event::KeyPressed) {
+						if (evento.key.code == sf::Keyboard::Escape) {
+							menu1 = -menu1;
+						}
+					}
+					//Evento para reinicar o jogo
+					if (evento.type == sf::Event::KeyPressed) {
+						if (evento.key.code == sf::Keyboard::P) {
+							reiniciar();
+							//jogador->morrer(1);
+
+						}
+					}
+				}
+
 			}
-		}
-		gravidade();
-		janela.display();
-	}
-}
-void Jogo::gravidade() {
-	jogador.setDy((float)GRAVIDADE);
-	
-}
-void Jogo::inicializar() {
-	jogador.setJanela(&janela);
-	//jogador.setCor(rand()%255, rand()%255, rand()%255, 255);
-	//inimigo.setCor();
-	inimigo.setJanela(&janela);
-	menu.setJanela(&janela);
-	fase.setJanela(&janela);
-	menu.setSize(janela.getSize().x, janela.getSize().y);
-	menu.setCor(100, 100, 255, 200);
-	jogador.setCor(255, 0, 0, 255);
-	//jogador.setTexture("aaa.png");
+
+			void Jogo::printar() {
+				fase.selecionar(fase1);
+				/*
+				jogador->executar();
+				inimigo->executar();
+				arqueiro->executar();
+				inim->executar();
+				inim2->executar();
+				*/
+			}
+
+			void Jogo::reiniciar() {
+				/*
+				jogador->setxy(0, 0);
+				inim->reiniciar();
+				arqueiro->reiniciar();
+				inim2->reiniciar();
+				inimigo->reiniciar();
+				*/
+			}
+		//}
+	//}
 }

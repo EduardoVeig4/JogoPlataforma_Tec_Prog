@@ -1,15 +1,18 @@
 #pragma once
 #include "Ente.h"
-#include<SFML/Graphics.hpp>	
-class Fase :public Ente{
-private:
-	sf::Image image;
-	sf::Texture texture;
-	sf::RectangleShape sprite;
-	sf::RenderWindow* janela;
-public:
-	Fase();
-	~Fase();
-	void executar();
-};
+#include "Textura1.h"
+#include "ListaEntidades.h"
+
+namespace Jogo {
+	class Fase :public Ente, public Textura1 {
+	protected:
+		sf::RectangleShape fundo;
+
+	public:
+		Fase();
+		~Fase();
+		void selecionar(int i);
+		void mover();
+	};
+}
 
