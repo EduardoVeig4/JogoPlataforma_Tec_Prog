@@ -8,9 +8,8 @@ namespace Jogo {
 
 		//namespace Inimigo {
 
-			class Inimigo_comum : public Textura1, public Inimigo {
+			class Inimigo_comum : public Inimigo {
 			private:
-				//float dy;
 				int flag_mover;
 				int flag_perseguir;
 
@@ -21,7 +20,6 @@ namespace Jogo {
 				void perseguir();
 				void mover();
 				void executar();
-				void morrer();
 				void matar();
 			};
 		//}

@@ -9,23 +9,26 @@ namespace Jogo {
 
 		//namespace Jogador {
 
-			class Jogador :public Entidade, public Textura1 {
+			class Jogador :public Entidade {
 			private:
 
-				float dy;
 				sf::RectangleShape bala;
-				int vivo;
+				sf::FloatRect bala_colisao;
+
 			public:
 				Jogador();
 				~Jogador();
 				void mover();
-				void setDy(float dyy);
 				void atirar();
 				void executar();
 				sf::RectangleShape getBala();
-				void setbala(float x, float y);
+				sf::FloatRect getColisaoBala();
+				
 				void morrer(int i);
-				int getVivo();
+				void morrer2(Entidade* aux);
+
+				
+				
 			};
 		//}
 	}

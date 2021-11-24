@@ -8,18 +8,18 @@ namespace Jogo {
 
 		namespace Arqueiro {
 
-			class Arqueiro :public Inimigo, public Textura1 {
+			class Arqueiro :public Inimigo{
 			private:
 				sf::RectangleShape flecha;
+				sf::FloatRect flecha_colisao;
 				int flag_mover;
 			public:
 				Arqueiro();
 				~Arqueiro();
-				void setDy(float dyy);
 				void atirar();
 				void mover();
 				void executar();
-				void morrer();
+				sf::FloatRect getColisaoFlecha();
 
 			};
 		}

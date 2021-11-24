@@ -10,10 +10,8 @@ namespace Jogo {
 		namespace Arqueiro {
 
 			Arqueiro::Arqueiro() :Inimigo() {
-				dy = 0;
 				corpo.setTexture(&arqueiro);
 				flecha.setSize(sf::Vector2f(30, 10));
-				flecha.setFillColor(sf::Color::Black);
 				flecha.setPosition(9000.f, 9000.f);
 				vidas = 3;
 				flag_mover = 0;
@@ -21,9 +19,6 @@ namespace Jogo {
 			}
 			Arqueiro::~Arqueiro() {
 				corpo.setTexture(NULL);
-			}
-			void Arqueiro::setDy(float dyy) {
-				dy += dyy;
 			}
 			void Arqueiro::atirar() {
 				if (fabs((float)flecha.getPosition().x - corpo.getPosition().x) > 1000 && fabs(corpo.getPosition().x - pJogador->getPos().x) < 100000) {
@@ -33,10 +28,9 @@ namespace Jogo {
 				}
 				flecha.move(-0.5f, 0.f);
 				janela->draw(flecha);
-				if (fabs(flecha.getPosition().x - pJogador->getPos().x) < 100 && fabs(flecha.getPosition().y - pJogador->getPos().y) < 100) {
-					flecha.setPosition(9000, 9000);
-					//Codigo pra matar o jogador,comentei pois dificulta o teste
-					//pJogador->morrer(0);
+				if (flecha_colisao.intersects(pJogador->getColisao())) {
+				
+					flecha.setPosition(flecha.getPosition().x, 8000);
 				}
 			}
 			void Arqueiro::mover() {
@@ -54,11 +48,10 @@ namespace Jogo {
 				if (flag_mover == 6000) {
 					flag_mover = 0;
 				}
-				if (corpo.getPosition().y + corpo.getSize().y >= janela->getSize().y) {
-					dy = 0;
-				}
+
 			}
 			void Arqueiro::executar() {
+				
 				if (vidas > 0) {
 					//setx();
 					//sety();
@@ -67,16 +60,12 @@ namespace Jogo {
 					mover();
 					morrer();
 					imprimir();
+					flecha_colisao = flecha.getGlobalBounds();
 				}
-
+				else vivo = 0;
 			}
-
-			void Arqueiro::morrer() {
-				if (pJogador->getBala().getPosition().x - corpo.getPosition().x > 0 && pJogador->getBala().getPosition().x - corpo.getPosition().x < 100 &&
-					pJogador->getBala().getPosition().y - corpo.getPosition().y <100 && pJogador->getBala().getPosition().y - corpo.getPosition().y > -5) {
-					pJogador->setbala(9000, 9000);
-					vidas--;
-				}
+			sf::FloatRect Arqueiro::getColisaoFlecha() {
+				return flecha_colisao;
 			}
 		}
 	}

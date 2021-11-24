@@ -14,13 +14,14 @@ namespace Jogo {
                 protected:
                     Jogador* pJogador;
                     int vidas;
-                    float dy;
+
                 public:
                     Inimigo();
                     ~Inimigo();
                     void setJogador(Jogador* pjog);
                     Jogador* getJogador();
                     virtual void reiniciar();
+                    void morrer();
                 };
             //}
         //}

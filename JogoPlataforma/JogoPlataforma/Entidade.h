@@ -2,6 +2,8 @@
 #include <SFML/Graphics.hpp>
 #include "Ente.h"
 #include "ListaEntidades.h"
+#include "Textura1.h"
+#define GRAVIDADE 0.0008f
 //#include "GerenciadorGrafico.h"
 //#include "GerenciadorEventos.h"
 
@@ -9,11 +11,14 @@ namespace Jogo {
 
 	namespace Entidades {
 
-		class Entidade : public Ente {
+		class Entidade : public Ente,public Textura1 {
 		protected:
 			sf::RectangleShape corpo;
+			sf::FloatRect colisao;
 			//sf::RenderWindow* janela;
 			sf::Vector2f posicao; // vetor com as coordenadas x e y da entidade
+			float dy;
+			int vivo;
 			//float x;
 			//float y;
 
@@ -41,6 +46,8 @@ namespace Jogo {
 			*/
 
 			virtual void ajustar();
+			sf::FloatRect getColisao();
+			int getVivo();
 
 
 			//virtual void inicializar(GerenciadorGrafico &gf, GerenciadorEventos &ge);

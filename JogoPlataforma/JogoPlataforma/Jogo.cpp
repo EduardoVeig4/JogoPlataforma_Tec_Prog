@@ -1,5 +1,5 @@
 #include "Jogo.h"
-#define GRAVIDADE 0.0008
+
 #include<iostream>
 using namespace std;
 
@@ -65,21 +65,10 @@ namespace Jogo {
 
 						}*/
 					}
-
-					gravidade();
 					janela.display();
 				}
 			}
 
-			void Jogo::gravidade() {
-				/*
-				jogador->setDy((float)GRAVIDADE);
-				inimigo->setDy((float)GRAVIDADE);
-				inim->setDy((float)GRAVIDADE);
-				inim2->setDy((float)GRAVIDADE);
-				arqueiro->setDy((float)GRAVIDADE);
-				*/
-			}
 
 			void Jogo::inicializar() {
 				//Janela das entidades

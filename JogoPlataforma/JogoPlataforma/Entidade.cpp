@@ -10,7 +10,8 @@ namespace Jogo {
 			corpo(sf::Vector2f(100.f, 100.f)) {
 
 			posicao = sf::Vector2f(0.0f, 0.0f); // Define a posição inicial usando o vector de float
-
+			vivo = 1;
+			dy = 0;
 			//x = 0;
 			//y = 0;
 			janela = NULL;
@@ -18,9 +19,9 @@ namespace Jogo {
 		Entidade::Entidade(float sizex, float sizey) :
 			corpo(sf::Vector2f(sizex, sizey)) {
 			corpo.setSize(sf::Vector2f((float)sizex, (float)sizey));
-
+			vivo = 1;
 			posicao = sf::Vector2f(0.0f, 0.0f); // Define a posição inicial usando o vector de float
-
+			dy = 0;
 			//x = 0;
 			//y = 0;
 			janela = NULL;
@@ -84,6 +85,20 @@ namespace Jogo {
 			if (corpo.getPosition().y + corpo.getSize().y > janela->getSize().y) {
 				corpo.setPosition(sf::Vector2f(corpo.getPosition().x, janela->getSize().y - corpo.getSize().y));
 			}
+
+			if (corpo.getPosition().y + corpo.getSize().y >= janela->getSize().y) {
+				dy = 0;
+			}
+			if (corpo.getPosition().y + corpo.getSize().y <= janela->getSize().y) {
+				corpo.move(0, dy);
+			}
+			colisao = corpo.getGlobalBounds();
+		}
+		sf::FloatRect Entidade::getColisao() {
+			return colisao;
+		}
+		int Entidade::getVivo() {
+			return vivo;
 		}
 
 		/*
